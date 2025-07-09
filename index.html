@@ -1,30 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="./script.js" defer></script>
-    <title>App web</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho Escolar - Programação</title>
+  <style>
+    body {
+      font-family: 'Montserrat', Arial, sans-serif;
+      background: linear-gradient(120deg, #e3f0ff 0%, #f7e8c6 100%);
+      margin: 0;
+      padding: 0 0 40px 0;
+      min-height: 100vh;
+    }
+    .container {
+      background: #fff;
+      max-width: 900px;
+      margin: 40px auto;
+      border-radius: 18px;
+      box-shadow: 0 4px 24px #b3c6e044;
+      padding: 32px 24px;
+    }
+    h1 {
+      color: #4a6fa5;
+      font-size: 2.2em;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    h2 {
+      color: #f7971e;
+      margin-top: 32px;
+      font-size: 1.3em;
+    }
+    p, li {
+      color: #222;
+      font-size: 1.13em;
+      line-height: 1.7;
+    }
+    ul {
+      margin: 0 0 0 18px;
+    }
+    .destaque {
+      background: #e3f0ff;
+      border-left: 5px solid #4a6fa5;
+      padding: 12px 18px;
+      border-radius: 8px;
+      margin: 18px 0;
+      color: #4a6fa5;
+      font-weight: 600;
+    }
+    @media (max-width: 700px) {
+      .container { padding: 10px 2vw; }
+      h1 { font-size: 1.3em; }
+      h2 { font-size: 1.1em; }
+      p, li { font-size: 1em; }
+    }
+  </style>
 </head>
-
 <body>
-    <section>
-    <header>
-        <img src="./Captura_de_tela_2025-04-16_101638-removebg-preview.png" alt="logo da escola" id="logo">
-    </header>
-    <div class="box">
-        <div class="card_ativo c1">
-            <input type="text" id="inpult" placeholder="digite algo aqui !"style="display: inline; text-align: center; width: 200px; height: 50px; border-radius: 5px; border: 1px solid #000;">
-            <button id="on">Click</button>
-        </div>
-        <div class="card_ativo c2" id="card_ativo">
-
-        </div>
-        
+  <div class="container">
+    <h1>Trabalho Escolar: Programação</h1>
+    <div class="destaque">
+      <strong>Tema:</strong> Programação de Computadores
     </div>
-</section>
+    <h2>O que é Programação?</h2>
+    <p>Programação é o processo de criar, testar e manter códigos que instruem computadores a realizar tarefas específicas. Ela é a base do desenvolvimento de softwares, aplicativos, jogos, sistemas embarcados e muito mais. Aprender a programar desenvolve o raciocínio lógico, a criatividade e a capacidade de resolver problemas.</p>
+    <h2>Oferta na UnB</h2>
+    <p>O curso de <strong>Ciência da Computação</strong> da Universidade de Brasília (UnB) oferece uma formação sólida em programação, com disciplinas como Algoritmos, Estruturas de Dados, Programação Orientada a Objetos, Inteligência Artificial, entre outras.</p>
+    <ul>
+      <li><strong>Duração:</strong> 4 anos (8 semestres)</li>
+      <li><strong>Quantidade de vagas:</strong> Aproximadamente 80 vagas por semestre</li>
+      <li><strong>Turno:</strong> Integral</li>
+    </ul>
+    <h2>Mercado de Trabalho e Remuneração</h2>
+    <p>O mercado de trabalho para programadores é um dos mais aquecidos do Brasil e do mundo. Empresas de tecnologia, bancos, startups, órgãos públicos e indústrias buscam profissionais capazes de criar soluções digitais inovadoras.</p>
+    <ul>
+      <li><strong>Salário inicial:</strong> Entre R$ 3.000 e R$ 6.000 para recém-formados</li>
+      <li><strong>Salário médio:</strong> Profissionais experientes podem ganhar acima de R$ 10.000</li>
+      <li><strong>Mercado internacional:</strong> Muitos programadores trabalham remotamente para empresas do exterior, com salários em dólar ou euro</li>
+    </ul>
+    <h2>Áreas de Atuação</h2>
+    <ul>
+      <li>Desenvolvimento de software e aplicativos</li>
+      <li>Desenvolvimento web e mobile</li>
+      <li>Inteligência Artificial e Machine Learning</li>
+      <li>Segurança da Informação</li>
+      <li>Jogos digitais</li>
+      <li>Banco de dados</li>
+      <li>Computação em nuvem</li>
+      <li>Pesquisa acadêmica</li>
+      <li>Automação industrial</li>
+    </ul>
+    <div class="destaque">
+      <strong>Resumo:</strong> Programação é uma área dinâmica, com alta empregabilidade, ótimos salários e oportunidades em diversos setores. É ofertada na UnB e em várias universidades do Brasil.
+    </div>
+    <h2>Para saber mais</h2>
+    <p>Pesquise mais sobre programação no <a href="https://www.google.com/search?q=programa%C3%A7%C3%A3o+de+computadores" target="_blank" style="color:#4a6fa5; text-decoration:underline;">Google</a>.</p>
+    <h2>Referências e Links Úteis</h2>
+    <ul>
+      <li><a href="https://www.unb.br/curso/ciencia-da-computacao" target="_blank">Ciência da Computação - UnB</a></li>
+      <li><a href="https://www.brasilcode.com.br/" target="_blank">Brasil Code - Comunidade de Programação</a></li>
+      <li><a href="https://www.alura.com.br/" target="_blank">Alura - Cursos de Programação</a></li>
+      <li><a href="https://www.coursera.org/browse/computer-science" target="_blank">Coursera - Cursos de Ciência da Computação</a></li>
+      <li><a href="https://roadmap.sh/" target="_blank">Roadmap.sh - Guias de Carreira em Programação</a></li>
+      <li><a href="https://www.devmedia.com.br/" target="_blank">DevMedia - Conteúdo para Programadores</a></li>
+    </ul>
+    <h2>Curiosidades e Dados</h2>
+    <ul>
+      <li>O primeiro programador da história foi Ada Lovelace, no século XIX.</li>
+      <li>Existem mais de 700 linguagens de programação no mundo.</li>
+      <li>Segundo a Brasscom, o Brasil forma cerca de 53 mil profissionais de TI por ano, mas a demanda é de mais de 70 mil.</li>
+      <li>As linguagens mais populares atualmente são Python, JavaScript, Java e C#.</li>
+      <li>O setor de TI cresce, em média, 10% ao ano no Brasil.</li>
+      <li>Programadores podem trabalhar remotamente para empresas de qualquer lugar do mundo.</li>
+    </ul>
+    <p style="text-align:right; margin-top:40px; color:#888;">Trabalho feito por: <strong>Kaio</strong></p>
+  </div>
 </body>
-
 </html>
